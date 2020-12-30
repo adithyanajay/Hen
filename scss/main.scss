@@ -1,0 +1,26 @@
+//Partials
+@import './hero';
+@import './nav';
+@import './media';
+
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem 0;
+    }
+}
